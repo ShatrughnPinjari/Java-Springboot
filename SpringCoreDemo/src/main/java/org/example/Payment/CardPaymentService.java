@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 //@Primary
-@Qualifier
+//@Qualifier
 public class CardPaymentService implements PaymentService{
 
     @Override

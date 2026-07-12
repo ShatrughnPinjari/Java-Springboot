@@ -1,10 +1,12 @@
 package org.example.Payment;
 
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Qualifier
+//@Qualifier
+@Primary
 public class UPIPaymentService implements PaymentService {
 
     @Override
